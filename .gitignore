@@ -1,0 +1,14 @@
+# macOS
+.DS_Store
+
+# Secrets: keep env files out of git (for any future tooling here)
+.env
+.env.*
+!.env.example
+
+# Per-machine Claude Code settings and worktrees
+.claude/settings.local.json
+.claude/worktrees/
+
+# Dependencies, if tooling is added later
+node_modules/
