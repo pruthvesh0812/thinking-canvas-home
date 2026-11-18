@@ -30,6 +30,9 @@ stays in its own repo.
 - `code-alignment`: after a commit that changes logic, update the feature's
   alignment doc and run a short comprehension check.
 - `stepping-stones`: walk a flow's real code one function at a time.
+- `canvas-element-check`: after adding or changing a canvas element, test in
+  the browser that it is created, dragged, selected, typed on, deleted and
+  survives a reload.
 
 ## Other Repos
 
